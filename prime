@@ -1,7 +1,7 @@
 let n=11;
  let factor=0;
-for(i=0;i<=n;i++){
-  if(num%0==0){
+for(i=1;i<=n;i++){
+  if(num%i==0){
    factor++;
 }  
   }
