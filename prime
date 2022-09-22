@@ -1,11 +1,12 @@
 let n=11;
- let factor=0;
+ let flag="false";
 for(i=1;i<=n;i++){
-  if(num%i==0){
-   factor++;
+  if(num%0==0){
+   flag=true;
+
 }  
   }
-  if(factor==2){
+  if(flag==true){
  console.log(i,"prime");
   }else{
   console.log(i"not prime");
